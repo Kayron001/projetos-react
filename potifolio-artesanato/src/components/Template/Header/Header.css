@@ -1,0 +1,17 @@
+header.header{
+    padding: 0px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header.header h1{
+    font-size: 1.8em;
+}
+header>h1 {
+    margin: 15px 10px;
+    text-align: center;
+}
+p.lead{
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand/Quicksand-Medium.ttf')
+}
+
+* {
+    font-family: 'Quicksand', monospace;
+}
+
+:root {
+    --bg-dark: #1A2F3A;
+
+    --logo-height: 130px;
+    --header-height: 30px;
+    --aside-width: 250px;
+    --footer-height: 40px;
+
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06),
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand'
+}
+
+.app {
+    background-image: url('../assets/img/background-3.png');
+    margin: 0px;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:
+        var(--header-height) var(--logo-height) 90px 1fr 90px;
+    grid-template-areas:
+        "navigation"
+        "logo"
+        "header"
+        "content"
+        "footer";
+    height: 100vh;
+}
+
+aside.logo {
+    grid-area: logo;
+}
+
+aside.menu-area {
+    grid-area: navigation;
+}
+
+header.header {
+    grid-area: header;
+}
+
+main.content {
+    grid-area: content;
+}
+
+footer.footer {
+    grid-area: footer;
+}
+div.display-4{
+    font-size: 3em;
+    text-align: center;
+}

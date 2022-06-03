@@ -1,0 +1,105 @@
+div.contato-caixa {
+    height: 1fr;
+    font-weight: bold;
+    display: grid;
+    margin: 50px 150px 40px 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E0DAD7;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.contato-wpp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr 50px;
+    grid-template-areas: "mensagem""caixa""botao";
+}
+
+div.rede-sociais {
+    border-left: solid 2px black;
+    align-self: center;
+    margin: 70px 0px 80px 50px;
+}
+
+p.mensagem {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px 30px;
+    text-decoration-line: underline;
+    grid-area: mensagem;
+}
+
+textarea.caixa {
+    padding: 5px 10px;
+    margin: 15px 30px;
+    grid-area: caixa;
+    font-size: 1.2em;
+}
+
+a.link {
+    justify-self: center;
+}
+
+input.botao-enviar {
+    cursor: pointer;
+    padding: 5px 15px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    grid-area: botao;
+}
+
+div.face {
+    grid-area: facebook;
+    display: grid;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.face>input {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px;
+    margin: 15px 0px;
+    width: 150px;
+}
+
+div.insta {
+    grid-area: facebook;
+    display: grid;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.insta>input {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+    border-radius: 9px;
+    width: 150px;
+}
+div.youtube {
+    grid-area: facebook;
+    display: grid;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+div.youtube>input {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+    border-radius: 9px;
+    width: 150px;
+}
