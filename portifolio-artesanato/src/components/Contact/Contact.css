@@ -1,0 +1,244 @@
+.contato-caixa {
+    height: 1fr;
+    font-weight: bold;
+    display: grid;
+    margin: 50px 150px 40px 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E0DAD7;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contato-wpp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr 50px;
+    grid-template-areas: "mensagem""caixa""botao";
+}
+
+.rede-sociais {
+    border-left: solid 2px black;
+    align-self: center;
+    margin: 70px 0px 80px 50px;
+}
+
+.mensagem {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px 30px;
+    text-decoration-line: underline;
+    grid-area: mensagem;
+}
+
+.caixa {
+    padding: 5px 10px;
+    margin: 15px 30px;
+    grid-area: caixa;
+    font-size: 1.2em;
+}
+
+.botao-enviar {
+    cursor: pointer;
+    padding: 5px 15px;
+    align-self: center;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.botao-enviar:hover {
+    background-color: #CFCFCF;
+}
+
+.botao-enviar img {
+    width: 7%;
+    margin-right: 8px;
+}
+
+.botao-rede-social {
+    grid-area: facebook;
+    display: grid;
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.botao-rede-social>input {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px;
+    margin: 15px 0px;
+    width: 150px;
+}
+
+.botao-rede-social>input:hover {
+    background-color: #CFCFCF;
+}
+
+@media (max-width: 1000px) {
+    .contato-caixa {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: -4% 4% 2% 4%;
+    }
+
+    .rede-sociais {
+        border-left: none;
+        border-top: solid 2px black;
+        align-self: center;
+        margin: 10px 0 0 0;
+        padding: 0 40px;
+    }
+
+    .caixa {
+        padding-bottom: 100px;
+        margin: -12px 10px 15px 10px;
+        grid-area: caixa;
+        font-size: 1.2em;
+    }
+
+    .botao-enviar {
+        padding: 8px 0;
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+
+    .botao-enviar img {
+        width: 5%;
+        margin-right: 8px;
+    }
+
+    .mensagem {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0;
+        text-decoration-line: underline;
+    }
+
+    div.botao-rede-social>input:hover,
+    .botao-enviar:hover {
+        background-color: white;
+    }
+
+    .botao-rede-social {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .botao-rede-social>input {
+        margin: 8px 0px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 741px) {
+    .contato-caixa {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: -5% 4% 2% 4%;
+    }
+
+    .rede-sociais {
+        border-left: none;
+        border-top: solid 2px black;
+        align-self: center;
+        margin: 10px 0 0 0;
+        padding: 0 40px;
+    }
+
+    .caixa {
+        padding-bottom: 0;
+        margin: -12px 10px 15px 10px;
+        grid-area: caixa;
+        font-size: 1.2em;
+    }
+
+    .botao-enviar {
+        padding: 0 0;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .mensagem {
+        text-align: center;
+        font-size: 1rem;
+        margin: 0;
+        text-decoration-line: underline;
+    }
+
+    div.botao-rede-social>input:hover,
+    .botao-enviar:hover {
+        background-color: white;
+    }
+
+    .botao-rede-social {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .botao-rede-social>input {
+        margin: 8px 0px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 361px) {
+    .contato-caixa {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: -11% 4% 2% 4%;
+    }
+
+    .rede-sociais {
+        border-left: none;
+        border-top: solid 2px black;
+        align-self: center;
+        margin: 10px 0 0 0;
+        padding: 0 40px;
+    }
+
+    .caixa {
+        padding-bottom: 80px;
+        margin: -12px 10px 15px 10px;
+        grid-area: caixa;
+        font-size: 1.2em;
+    }
+
+    .botao-enviar {
+        padding: 0 0;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .mensagem {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0;
+        text-decoration-line: underline;
+    }
+
+    div.botao-rede-social>input:hover,
+    .botao-enviar:hover {
+        background-color: white;
+    }
+
+    .botao-rede-social {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .botao-rede-social>input {
+        margin: 8px 0px;
+        width: 150px;
+    }
+}

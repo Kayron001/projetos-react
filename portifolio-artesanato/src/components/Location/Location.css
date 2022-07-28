@@ -1,0 +1,115 @@
+.caixa-localizacao {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.localizacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frente-loja {
+    height: 57%;
+    width: 57%;
+}
+
+.endereco {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.endereco p {
+    font-weight: bold;
+    margin: 2%;
+}
+
+.ponteiro {
+    height: 10%;
+    width: 20%;
+}
+
+.botao-contato-localizacao {
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    align-self: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 9px;
+    margin: 15px 0px;
+    width: 150px;
+}
+
+.botao-contato-localizacao:hover {
+    background-color: #CFCFCF;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    .frente-loja {
+        height: 80%;
+        width: 80%;
+    }
+    .caixa-localizacao {
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+    .ponteiro {
+        margin-top: 2%;
+        height: 5%;
+        width: 10%;
+    }
+    .endereco p {
+        font-weight: normal;
+        line-height: 1.7rem;
+        margin: 1%;
+    }
+}
+@media (max-width: 741px){
+    .caixa-localizacao {
+        margin-top: -5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    .ponteiro {
+        margin-top: 2%;
+        height: 5%;
+        width: 10%;
+    }
+    .endereco p {
+        font-weight: normal;
+        line-height: 1.7rem;
+        margin: 1%;
+    }
+}
+@media (max-width: 361px){
+    .caixa-localizacao {
+        margin-top: -11%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .ponteiro {
+        margin-top: 2%;
+        height: 5%;
+        width: 10%;
+    }
+    .endereco p {
+        font-weight: normal;
+        line-height: 1.7rem;
+        margin: 1%;
+    }
+    .botao-contato-localizacao {
+        margin-bottom: -2%;
+    }
+}

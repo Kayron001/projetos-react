@@ -1,0 +1,44 @@
+footer.footer {
+    background-color: #E0DAD7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img.rede-social {
+    cursor: pointer;
+    width: 4%;
+    padding: 0 15px 3px 15px;
+}
+
+p.texto {
+    background-color: #E0DAD7;
+    margin-bottom: 0%;
+}
+
+@media (max-width: 1000px) {
+    img.rede-social {
+        width: 6.5%;
+    }
+}
+
+@media (max-width: 741px) {
+    img.rede-social {
+        width: 8%;
+    }
+}
+
+@media (max-width: 400px) {
+    img.rede-social {
+        width: 17%;
+    }
+    p.texto {
+        font-size: 13px;
+    }
+}

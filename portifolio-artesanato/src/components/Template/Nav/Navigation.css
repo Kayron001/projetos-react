@@ -1,0 +1,54 @@
+aside.menu-area {
+    position: fixed;
+    width: 100vw;
+    background-color: #E0DAD7;
+    height: 40px;
+}
+
+.menu {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 8px;
+}
+
+@media (max-width: 1000px) {
+    .menu a:hover {
+        text-decoration: none;
+    }
+}
+@media (max-width: 741px) {
+    .menu a:hover {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu {
+        position: fixed;
+    }
+
+    .menu-area {
+        position: fixed;
+    }
+
+    .menu a i:hover {
+        text-decoration: none;
+    }
+    .menu a i{
+        padding: 9px 18px;
+    }
+
+    .menu a span {
+        display: none;
+    }
+}
