@@ -1,0 +1,23 @@
+Projeto Rede Social Memories, produzido em React, MongoDB Atlas, Express e Node.JS
+
+Para executar o projeto é simples,
+dentro da pasta server, utilizar o comando:
+
+npm install
+
+para rodar:
+
+npm start
+
+Dentro da pasta Client, utilizar o comando:
+
+npm install --legacy-peer-deps
+
+para rodar:
+
+npm start
+
+--------------------------------------------------------------------------------------------------------
+
+Paginação:
+
