@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.send('APP IS RUNNING.')
 })
 
-const CONNECTION_URL = 'mongodb+srv://amexkun:YmEbW42ej3s3fKy@cluster0.n8gffki.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://amexkun:<senha>@cluster0.n8gffki.mongodb.net/?retryWrites=true&w=majority'
 // const CONNECTION_URL = process.env.CONNECTION_URL
 const PORT = process.env.PORT || 5000
 
